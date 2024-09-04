@@ -1,0 +1,131 @@
+body {
+    background-image: url("../images/bg.image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  
+
+p {
+    color: #ddf0ed; /* Задаёт синий цвет текста для всех параграфов */
+}
+
+
+.header {
+    
+    display: flex; /* Используем Flexbox */
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Центрируем по вертикали */
+    padding: 15px; /* Отступы вокруг шапки */
+    
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%; /* Ширина контейнера */
+    max-width: 1900px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    margin-top: 0px;
+   
+}
+
+
+.nav {
+    display: flex; /* Используем Flexbox для навигации */
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.nav-item {
+    margin-left: 20px; /* Отступ между элементами навигации */
+}
+
+
+.nav-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 1.2rem; /* Размер шрифта */
+    color: #bcfc91; /* Цвет текста */
+}
+
+
+.my-button {
+    background-color: #639678; /* Цвет фона кнопки */
+    border: none; /* Убираем рамку */
+    text-decoration: none;
+    color: white; /* Цвет текста */
+    display: inline-block; /* Делаем кнопку строчно-блочным элементом */
+    width: auto; /* Убираем фиксированную ширину */
+    max-width: 200px; /* Максимальная ширина кнопки */
+    padding: 10px; /* Отступы для кнопки */
+    text-align: center; /* Центрируем текст */
+    margin-top: 10px; /* Отступ сверху */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+
+.btn.btn-secondary {
+    font-size: 12px;
+    background-color: #639678; /* Цвет фона кнопки */
+    border: none; /* Убираем рамку */
+    text-decoration: none;
+    color: white; /* Цвет текста */
+    display: inline-block; /* Делаем кнопку строчно-блочным элементом */
+    width: auto; /* Убираем фиксированную ширину */
+    max-width: 200px; /* Максимальная ширина кнопки */
+    padding: 10px; /* Отступы для кнопки */
+    text-align: center; /* Центрируем текст */
+    margin-top: 10px; /* Отступ сверху */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+
+.btn.btn-secondary:hover {
+    background-color: #44b492; /* Цвет фона при наведении */
+}
+
+
+.my-button:hover {
+    background-color: #44b492; /* Цвет фона при наведении */
+}
+
+
+.card {
+    transition: transform 0.2s ease;
+    
+    background-color: rgba(255, 255, 255, 0.);
+    border: 1px solid #c0adad;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+    background-color: rgba(46, 51, 42, 0.6); 
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #96b444;
+}
+
+
+.card-text {
+    font-size: 1rem;
+    color: #2503a0;
+}
+
+
+.btn {
+    margin-top: 10px;
+}
